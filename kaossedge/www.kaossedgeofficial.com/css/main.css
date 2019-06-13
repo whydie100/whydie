@@ -1,0 +1,499 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    /*line-height: 1.4;*/
+    overflow-y:auto;
+}
+
+body {
+    background-color: #000;
+    text-align: center;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+    font-family: 'grungeregular';
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+    font-family: 'grungeregular';
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+    font-family:sans-serif;
+    overflow-y:auto;
+    overflow-x:auto;
+}
+
+html, body, .faces{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+
+}
+
+table {
+    display: inline-block;
+}
+
+tbody {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+    .smtab {
+    display: inline-block;
+    }
+}
+
+
+.smtab {
+    display: inline-block;
+}
+
+#band {
+}
+
+
+#band h1 {
+    font-family: 'mixitregular';
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#band h4 {
+    font-size: 1.5em;
+}
+
+#band code {
+    font-family: 'splurgemedium';
+    font-size: 2em;
+}
+
+#band a {
+    text-decoration: none;
+    color: #000;
+}
+
+::selection {
+  background: #48F248; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #48F248; /* Gecko Browsers */
+}
+
+#blackened {
+    background-color:#000;
+}
+
+#kronos {
+    background: url('../img/dungeon.gif');
+    font-size: .8em;
+}
+
+#kronos img {
+    opacity: 1;
+}
+#faces {
+    background: url('../img/alienskein02.gif');
+}
+
+  #faces > table {
+    max-width: 1600px;
+    width: 100% !important;
+    display: inline-block;
+  }
+
+body#kronos {
+    font-family: 'tommys_first_alphabetregular';
+    font-size: 2em;
+    text-shadow: 2px 2px #ff0000;
+}
+
+body#kronos td {
+    font-family: 'tommys_first_alphabetregular';
+    font-size: 1.1em;
+}
+
+body#kronos td b {
+    font-family: 'abandonregular';
+}
+
+body#kronos td b a{
+    font-family: 'abandonregular';
+    color:#33ffdd;
+}
+
+body#kronos td a{
+    font-family: 'tooth31medium';
+    text-decoration: none;
+    color: #48F248;
+}
+
+body#flowmodes p {
+    font-family: 'anti_everythingregular';
+}
+
+#flowmodes {
+    font-size: 2em;
+}
+
+#flowmodes a {
+    background: #48f248;
+}
+
+h3 {
+    font-family: 'tooth31medium';
+}
+
+.headplatter {
+     background: rgba(207, 243, 255, 0.2) none repeat scroll 0 0;
+}
+
+#trollcrawl {
+    display: none;
+}
+
+#hellzone, #flowmodes{
+    background:url('../img/lavablock.jpg');
+}
+
+#kelogo {
+    font-family: 'mixitregular';
+    font-size: 3em;
+    color:#fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#kelogo2 {
+    font-family: 'mixitregular';
+    font-size: 5.3em;
+    color:#fff;
+    text-shadow: 5px 5px 5px #000;
+}
+
+#kenav {
+    font-family: 'a_song_for_jenniferregular';
+    /*font-size: 1.2em;*/
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+
+#transpar {
+    position: relative;
+    background: #262626;
+    overflow:hidden;
+}
+/* You could use :after - it doesn't really matter */
+#transpar:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150%;
+    height: 150%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('../img/disc/bg_crossed.png');
+    background-repeat: repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: 10%; 
+}
+
+.transpar {
+    width: 65%;
+    margin: auto;
+
+}
+
+#zone {
+    width:88%;
+    margin: auto;
+    text-align: left;
+    background: rgba(0, 0, 0, .355);
+    z-index: 2;
+    position: relative;
+}
+
+
+#zone::before {
+  content: "";
+  background:url('../img/roachskin/anthro.png');
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  
+}
+
+#zoneii div.grift {
+    text-align: left;
+}
+
+#zone img {
+    text-align: left;
+    margin:1em 8%;
+    padding: 1%;
+    border-top: 9px solid #48F248;
+    border-left: 3px solid #48F248;
+    border-right: 3px solid #fff;
+    border-bottom: 9px solid #fff;
+    border-radius: 4px;
+    z-index: 0;
+    position: relative;
+    opacity: .666;
+    max-height: 300px;
+    max-width: 30%;
+    max-height: 30%;
+}   
+
+/*img {
+    height: 60%;
+}*/
+
+#zone img.banner {
+    border:none;
+    opacity: 1;
+    max-height: 300px;
+}
+
+#zone footer img {
+    border:none;
+    width:10%;
+}
+
+.grift {
+    background: #161616;
+    z-index: 10;
+    position: relative;
+    font: #ffd;
+    overflow: auto;
+    display: block;
+}
+.grift h4, pre{
+    /*text-shadow: 1px 1px 1px #666;*/
+}
+
+.grift p {
+    background-color: #fff;
+    display: inline;
+    font-family: 'octavian_mtregular';
+
+.grift h4 {
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+img.grift {
+    opacity:.9;
+}
+
+
+#krank-iodione-macrodrum, #flow-kranium-sings, #malkon-flex-chapman-stick {
+    color:#fff;
+    border-bottom: solid #000 5px;
+}
+
+.morpho {
+    opacity: 0.9 !important;
+}
+
+pre {
+    padding-left: 1em;
+    white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

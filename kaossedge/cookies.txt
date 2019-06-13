@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.kaossedgeofficial.com	TRUE	/	FALSE	1999999999	__cfduid	d090adcbfe4a6f33e74ee97981321a3651560445152
+cdn.turner.com	TRUE	/	FALSE	1999999999	AKA_A2	A
+.jonathanrosenbaum.net	TRUE	/	FALSE	1999999999	__cfduid	d5b9fd53e9387a362be19e8be95891f521560447357
+.codepen.io	TRUE	/	FALSE	1999999999	__cfduid	d348264ba35e8e43871939b81b34debce1560447640
+

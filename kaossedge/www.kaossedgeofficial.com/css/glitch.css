@@ -1,0 +1,111 @@
+.glitch {
+  color: green;
+  font-size: 100px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(23px, 9999px, 38px, 0);
+  }
+  45% {
+    clip: rect(3px, 9999px, 66px, 0);
+  }
+  90% {
+    clip: rect(46px, 9999px, 31px, 0);
+  }
+  135% {
+    clip: rect(91px, 9999px, 96px, 0);
+  }
+  180% {
+    clip: rect(22px, 9999px, 66px, 0);
+  }
+  225% {
+    clip: rect(82px, 9999px, 80px, 0);
+  }
+  270% {
+    clip: rect(63px, 9999px, 29px, 0);
+  }
+  315% {
+    clip: rect(32px, 9999px, 62px, 0);
+  }
+  360% {
+    clip: rect(54px, 9999px, 33px, 0);
+  }
+  405% {
+    clip: rect(50px, 9999px, 1px, 0);
+  }
+  450% {
+    clip: rect(51px, 9999px, 66px, 0);
+  }
+  495% {
+    clip: rect(19px, 9999px, 70px, 0);
+  }
+  540% {
+    clip: rect(48px, 9999px, 90px, 0);
+  }
+  585% {
+    clip: rect(36px, 9999px, 58px, 0);
+  }
+  630% {
+    clip: rect(45px, 9999px, 63px, 0);
+  }
+  675% {
+    clip: rect(87px, 9999px, 42px, 0);
+  }
+  720% {
+    clip: rect(97px, 9999px, 92px, 0);
+  }
+  765% {
+    clip: rect(18px, 9999px, 12px, 0);
+  }
+  810% {
+    clip: rect(38px, 9999px, 57px, 0);
+  }
+  855.0% {
+    clip: rect(19px, 9999px, 78px, 0);
+  }
+  900% {
+    clip: rect(13px, 9999px, 42px, 0);
+  }
+}
+/* line 115, ../sass/screen.scss */
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: black;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 1em, 0, 0);
+  animation: noise-anim 3s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(56px, 9999px, 93px, 0);
+  }
+  50% {
+    clip: rect(94px, 9999px, 18px, 0);
+  }
+  100% {
+    clip: rect(57px, 9999px, 89px, 0);
+  }
+}
+/* line 139, ../sass/screen.scss */
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: #4dbf44;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 1em, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}

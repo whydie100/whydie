@@ -1,0 +1,674 @@
+
+<!DOCTYPE html>
+<html >
+
+  
+<!-- Mirrored from www.kaossedgeofficial.com/ke_ripflow/zone.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Jun 2019 17:41:25 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="google" value="notranslate">
+
+
+    <title>ZONE</title>
+    <script src="../../s.codepen.io/assets/libs/modernizr.html" type="text/javascript"></script>
+
+
+    
+    <link rel="stylesheet" href="stylesheets/bio.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/webfonts.css" type="text/css" charset="utf-8" />
+        <link rel="icon" type="image/png" href="../skull32.gif">-->
+        <script src="js/prefixfree.min-d.js"></script>
+        <script src="js/stopExecutionOnTimeout-f.html"></script>
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src='../js/jquery.min.js'></script>
+    <style type="text/css">
+      body {
+        background:url('flow_runes/rnz.png');
+      }
+
+      .fill-height-or-more {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+      }
+        .fill-height-or-more > div {
+        /* these are the flex items */
+        flex: 1;
+      }
+        .vertical-text p {
+        transform: rotate(13deg);
+        transform-origin: top right -77;
+      }
+
+      #message {
+          background:url('../img/design/tumblr_n4fb3qzizt1qd1gobo1_500.gif');
+          overflow:none;
+        }
+    </style>
+  </head>
+
+  <body>
+<section class="fill-height-or-more">
+    <div id="container" style="background:url('../img/newjank/screentest.png'); opacity:.92;" class="downer">
+        <div id="message" class="vertical-text mealpac">
+        <span id="animate"></span>
+
+        </div>
+        <!--<div id="transmess" style="float:left;margin-left:10px;" class="vertical-text mealpac">
+        <span id="animate"></span>-->
+
+        </div>
+    <!--<div>
+        <img src="../img/design/tumblr_n4fb3qzizt1qd1gobo1_500.gif">
+        </div>-->
+    </div>
+</section>
+      <script src="js/stopExecutionOnTimeout-f.js"></script>
+
+    <script src='../js/jquery.min.js'></script>
+
+        <script>
+      (function () {
+    var $animate, $container, $message, $paragraph, MESSAGES, animate, initialise, scramble;
+    MESSAGES = [];
+    MESSAGES.push({
+        delay: 0,
+        text: ''
+    });
+    MESSAGES.push({
+        delay: 1200,
+        text: 'Zear found himself tngwain to do it (more | rome) and (more | rome)'
+    });
+    MESSAGES.push({
+        delay: 2200,
+        text: 'but (now | own | won) the day had come where (there | three) (saw | was) a chance of it happening? the nsftaay (cloud | could) become reality'
+    });
+    MESSAGES.push({
+        delay: 3600,
+        text: '(cloud | could) he pull it off? he asked himself (sheet | these) questions again and again'
+    });
+    MESSAGES.push({
+    delay:5000,
+    text: 'hong kong marathon'
+    });
+    MESSAGES.push({
+    delay:7377,
+    text: 'consu'
+    });
+    MESSAGES.push({
+    delay:3000,
+    text: 'bradford league'
+    });
+    MESSAGES.push({
+    delay:2000,
+    text: 'wu-ele'
+    });
+
+    MESSAGES.push({
+    delay:10000,
+    text: 'pio pico state historic park'
+    });
+    MESSAGES.push({
+    delay:11000,
+    text: 'frank guild'
+    });
+    MESSAGES.push({
+    delay:22000,
+    text: 'list of capsicum cultivars'
+    });
+    MESSAGES.push({
+    delay:4340,
+    text: 'tecmo cup soccer ga'
+    });
+
+    MESSAGES.push({
+    delay:4500,
+    text: 'afro-europeans'
+    });
+    MESSAGES.push({
+    delay:8800,
+    text: 'galinsoor'
+    });
+    MESSAGES.push({
+    delay:6700,
+    text: 'customized girl'
+    });
+    MESSAGES.push({
+    delay:7700,
+    text: 'global trade watch'
+    });
+    MESSAGES.push({
+    delay:8800,
+    text: 'duchy of urnst'
+    });
+    MESSAGES.push({
+    delay:12300,
+    text: 'e'
+    });
+    MESSAGES.push({
+    delay:11200,
+    text: 'oklahoma city alliance'
+    });
+    MESSAGES.push({
+    delay:2000,
+    text: 'tritaia'
+    });
+    MESSAGES.push({
+    delay:14400,
+    text: 'the venture of islam'
+    });
+    MESSAGES.push({
+    delay:14400,
+    text: 'yasin malik'
+    });
+    MESSAGES.push({
+    delay:14800,
+    text: 'edward cadogan'
+    });
+
+    MESSAGES.push({
+    delay:12000,
+    text: 'vancouver harbour control tower'
+    });
+    MESSAGES.push({
+        delay: 1200,
+        text: 'EACH ONE HAS THEIR OWN FUCKING MIND! '
+    });
+    MESSAGES.push({
+        delay: 5200,
+        text: 'I AM NOT A WHOLE'
+    });
+        MESSAGES.push({
+        delay: 6400,
+        text: 'I AM NOT IN CONTROL'
+    });
+            MESSAGES.push({
+        delay: 6000,
+        text: 'MELTED SKIN REVEAL MY CAGE'
+    });
+        MESSAGES.push({
+        delay: 4200,
+        text: 'BONE IS STRONG BUT I HAVE AGED'
+    });
+        MESSAGES.push({
+        delay: 1200,
+        text: 'ONE MILLION YEARS AGOOOOOOO'
+    });
+        MESSAGES.push({
+        delay: 8200,
+        text: 'FROZEN UNDER SNOWWWWWWW'
+    });
+        MESSAGES.push({
+        delay: 9800,
+        text: 'OPERAtiNG SYSTEM TELLS ME WHAT TO THINK'
+    });
+        MESSAGES.push({
+        delay: 6500,
+        text: 'IMPRISONED IN CHAIN I SEARCH FOR A LINK'
+    });
+        MESSAGES.push({
+        delay: 4400,
+        text: 'TO THE MOTHERFUCKING PAST '
+    });
+        MESSAGES.push({
+        delay: 4400,
+        text: 'THROUGH THE HOLE IN MY ASS'
+    });
+        MESSAGES.push({
+        delay: 2100,
+        text: 'ALL MY THOUGHTS ARE FUTURES GAS'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'ALL MY DREAMS ARE FUTURES CLONE'
+    });
+        MESSAGES.push({
+        delay: 3000,
+        text: 'IN THIS ICEBERG I AM ALONE'
+    });
+        MESSAGES.push({
+        delay: 12900,
+        text: 'AEGIS BROKEN KROWN DECAY'
+    });
+        MESSAGES.push({
+        delay: 12700,
+        text: 'FUTURE EDGE IS ON DISPLAY'
+    });
+        MESSAGES.push({
+        delay: 14500,
+        text: 'CONSTRUCT CHRIST IS DEATH IN VAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+            MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+    $container = $('#container');
+    $message = $('#message');
+    $animate = $('#animate');
+    $paragraph = null;
+    scramble = function (element, text, options) {
+        var $element, addGlitch, character, defaults, ghostCharacter, ghostCharacters, ghostLength, ghostText, ghosts, glitchCharacter, glitchCharacters, glitchIndex, glitchLength, glitchProbability, glitchText, glitches, i, j, k, letter, object, order, output, parameters, ref, results, settings, shuffle, target, textCharacters, textLength, wrap;
+        defaults = {
+            probability: 0.2,
+            glitches: '-|/\\',
+            blank: '',
+            duration: text.length * 40,
+            ease: 'easeInOutQuad',
+            delay: 0
+        };
+        $element = $(element);
+        settings = $.extend(defaults, options);
+        shuffle = function () {
+            if (Math.random() < 0.5) {
+                return 1;
+            } else {
+                return -1;
+            }
+        };
+        wrap = function (text, classes) {
+            return '<span class="' + classes + '">' + text + '</span>';
+        };
+        glitchText = settings.glitches;
+        glitchCharacters = glitchText.split('');
+        glitchLength = glitchCharacters.length;
+        glitchProbability = settings.probability;
+        glitches = function () {
+            var j, len, results;
+            results = [];
+            for (j = 0, len = glitchCharacters.length; j < len; j++) {
+                if (window.CP.shouldStopExecution(1)) {
+                    break;
+                }
+                letter = glitchCharacters[j];
+                results.push(wrap(letter, 'glitch'));
+            }
+            window.CP.exitedLoop(1);
+            return results;
+        }();
+        ghostText = $element.text();
+        ghostCharacters = ghostText.split('');
+        ghostLength = ghostCharacters.length;
+        ghosts = function () {
+            var j, len, results;
+            results = [];
+            for (j = 0, len = ghostCharacters.length; j < len; j++) {
+                if (window.CP.shouldStopExecution(2)) {
+                    break;
+                }
+                letter = ghostCharacters[j];
+                results.push(wrap(letter, 'ghost'));
+            }
+            window.CP.exitedLoop(2);
+            return results;
+        }();
+        textCharacters = text.split('');
+        textLength = textCharacters.length;
+        order = function () {
+            results = [];
+            for (var j = 0; 0 <= textLength ? j < textLength : j > textLength; 0 <= textLength ? j++ : j--) {
+                if (window.CP.shouldStopExecution(3)) {
+                    break;
+                }
+                results.push(j);
+            }
+            window.CP.exitedLoop(3);
+            return results;
+        }.apply(this).sort(this.shuffle);
+        output = [];
+        for (i = k = 0, ref = textLength; 0 <= ref ? k < ref : k > ref; i = 0 <= ref ? ++k : --k) {
+            if (window.CP.shouldStopExecution(4)) {
+                break;
+            }
+            glitchIndex = Math.floor(Math.random() * (glitchLength - 1));
+            glitchCharacter = glitches[glitchIndex];
+            ghostCharacter = ghosts[i] || settings.blank;
+            addGlitch = Math.random() < glitchProbability;
+            character = addGlitch ? glitchCharacter : ghostCharacter;
+            output.push(character);
+        }
+        window.CP.exitedLoop(4);
+        object = { value: 0 };
+        target = { value: 1 };
+        parameters = {
+            duration: settings.duration,
+            ease: settings.ease,
+            step: function () {
+                var index, l, progress, ref1;
+                progress = Math.floor(object.value * (textLength - 1));
+                for (i = l = 0, ref1 = progress; 0 <= ref1 ? l <= ref1 : l >= ref1; i = 0 <= ref1 ? ++l : --l) {
+                    if (window.CP.shouldStopExecution(5)) {
+                        break;
+                    }
+                    index = order[i];
+                    output[index] = textCharacters[index];
+                }
+                window.CP.exitedLoop(5);
+                return $element.html(output.join(''));
+            },
+            complete: function () {
+                return $element.html(text);
+            }
+        };
+        return $(object).delay(settings.delay).animate(target, parameters);
+    };
+    animate = function () {
+        var data, element, index, j, len, options;
+        for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) {
+            if (window.CP.shouldStopExecution(6)) {
+                break;
+            }
+            data = MESSAGES[index];
+            element = $paragraph.get(index);
+            element.innerText = '';
+            options = { delay: data.delay };
+            scramble(element, data.text, options);
+        }
+        window.CP.exitedLoop(6);
+    };
+    initialise = function () {
+        var index, j, len, text;
+        $animate.click(animate);
+        for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) {
+            if (window.CP.shouldStopExecution(7)) {
+                break;
+            }
+            text = MESSAGES[index];
+            $message.append('<a href="../media/bioconfused.txt"><p>');
+        }
+        window.CP.exitedLoop(7);
+        $paragraph = $container.find('p');
+        animate();
+    };
+    initialise();
+}.call(this));
+      //@ sourceURL=pen.js
+    </script>
+
+
+        <script>
+      (function () {
+    var $morph, $mat, $transmess, $paragraph, MESSAGES, animate, initialise, scramble;
+    MESSAGES = [];
+    MESSAGES.push({
+        delay: 0,
+        text: ''
+    });
+    MESSAGES.push({
+        delay: 1200,
+        text: 'IF I AM MADE OF STEEL'
+    });
+    MESSAGES.push({
+        delay: 2200,
+        text: 'THEN TELL ME HOW DO I FEEL'
+    });
+    MESSAGES.push({
+        delay: 3600,
+        text: 'ALL THE ORGANS LODGED INSIDE'
+    });
+    MESSAGES.push({
+        delay: 1200,
+        text: 'EACH ONE HAS THEIR OWN FUCKING MIND! '
+    });
+    MESSAGES.push({
+        delay: 5200,
+        text: 'I AM NOT A WHOLE'
+    });
+        MESSAGES.push({
+        delay: 6400,
+        text: 'I AM NOT IN CONTROL'
+    });
+            MESSAGES.push({
+        delay: 6000,
+        text: 'MELTED SKIN REVEAL MY CAGE'
+    });
+        MESSAGES.push({
+        delay: 4200,
+        text: 'BONE IS STRONG BUT I HAVE AGED'
+    });
+        MESSAGES.push({
+        delay: 1200,
+        text: 'ONE MILLION YEARS AGOOOOOOO'
+    });
+        MESSAGES.push({
+        delay: 8200,
+        text: 'FROZEN UNDER SNOWWWWWWW'
+    });
+        MESSAGES.push({
+        delay: 9800,
+        text: 'OPERAtiNG SYSTEM TELLS ME WHAT TO THINK'
+    });
+        MESSAGES.push({
+        delay: 6500,
+        text: 'IMPRISONED IN CHAIN I SEARCH FOR A LINK'
+    });
+        MESSAGES.push({
+        delay: 4400,
+        text: 'TO THE MOTHERFUCKING PAST '
+    });
+        MESSAGES.push({
+        delay: 4400,
+        text: 'THROUGH THE HOLE IN MY ASS'
+    });
+        MESSAGES.push({
+        delay: 2100,
+        text: 'ALL MY THOUGHTS ARE FUTURES GAS'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'ALL MY DREAMS ARE FUTURES CLONE'
+    });
+        MESSAGES.push({
+        delay: 3000,
+        text: 'IN THIS ICEBERG I AM ALONE'
+    });
+        MESSAGES.push({
+        delay: 12900,
+        text: 'AEGIS BROKEN KROWN DECAY'
+    });
+        MESSAGES.push({
+        delay: 12700,
+        text: 'FUTURE EDGE IS ON DISPLAY'
+    });
+        MESSAGES.push({
+        delay: 14500,
+        text: 'CONSTRUCT CHRIST IS DEATH IN VAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+            MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+        MESSAGES.push({
+        delay: 5200,
+        text: 'BELOW THE BREATH OF GOD DISDAIN'
+    });
+    $mat = $('#mat');
+    $transmess = $('#transmess');
+    $morph = $('#morph');
+    $paragraph = null;
+    scramble = function (element, text, options) {
+        var $element, addGlitch, character, defaults, ghostCharacter, ghostCharacters, ghostLength, ghostText, ghosts, glitchCharacter, glitchCharacters, glitchIndex, glitchLength, glitchProbability, glitchText, glitches, i, j, k, letter, object, order, output, parameters, ref, results, settings, shuffle, target, textCharacters, textLength, wrap;
+        defaults = {
+            probability: 0.2,
+            glitches: '-|/\\',
+            blank: '',
+            duration: text.length * 40,
+            ease: 'easeInOutQuad',
+            delay: 0
+        };
+        $element = $(element);
+        settings = $.extend(defaults, options);
+        shuffle = function () {
+            if (Math.random() < 0.5) {
+                return 1;
+            } else {
+                return -1;
+            }
+        };
+        wrap = function (text, classes) {
+            return '<span class="' + classes + '">' + text + '</span>';
+        };
+        glitchText = settings.glitches;
+        glitchCharacters = glitchText.split('');
+        glitchLength = glitchCharacters.length;
+        glitchProbability = settings.probability;
+        glitches = function () {
+            var j, len, results;
+            results = [];
+            for (j = 0, len = glitchCharacters.length; j < len; j++) {
+                if (window.CP.shouldStopExecution(1)) {
+                    break;
+                }
+                letter = glitchCharacters[j];
+                results.push(wrap(letter, 'glitch'));
+            }
+            window.CP.exitedLoop(1);
+            return results;
+        }();
+        ghostText = $element.text();
+        ghostCharacters = ghostText.split('');
+        ghostLength = ghostCharacters.length;
+        ghosts = function () {
+            var j, len, results;
+            results = [];
+            for (j = 0, len = ghostCharacters.length; j < len; j++) {
+                if (window.CP.shouldStopExecution(2)) {
+                    break;
+                }
+                letter = ghostCharacters[j];
+                results.push(wrap(letter, 'ghost'));
+            }
+            window.CP.exitedLoop(2);
+            return results;
+        }();
+        textCharacters = text.split('');
+        textLength = textCharacters.length;
+        order = function () {
+            results = [];
+            for (var j = 0; 0 <= textLength ? j < textLength : j > textLength; 0 <= textLength ? j++ : j--) {
+                if (window.CP.shouldStopExecution(3)) {
+                    break;
+                }
+                results.push(j);
+            }
+            window.CP.exitedLoop(3);
+            return results;
+        }.apply(this).sort(this.shuffle);
+        output = [];
+        for (i = k = 0, ref = textLength; 0 <= ref ? k < ref : k > ref; i = 0 <= ref ? ++k : --k) {
+            if (window.CP.shouldStopExecution(4)) {
+                break;
+            }
+            glitchIndex = Math.floor(Math.random() * (glitchLength - 1));
+            glitchCharacter = glitches[glitchIndex];
+            ghostCharacter = ghosts[i] || settings.blank;
+            addGlitch = Math.random() < glitchProbability;
+            character = addGlitch ? glitchCharacter : ghostCharacter;
+            output.push(character);
+        }
+        window.CP.exitedLoop(4);
+        object = { value: 0 };
+        target = { value: 1 };
+        parameters = {
+            duration: settings.duration,
+            ease: settings.ease,
+            step: function () {
+                var index, l, progress, ref1;
+                progress = Math.floor(object.value * (textLength - 1));
+                for (i = l = 0, ref1 = progress; 0 <= ref1 ? l <= ref1 : l >= ref1; i = 0 <= ref1 ? ++l : --l) {
+                    if (window.CP.shouldStopExecution(5)) {
+                        break;
+                    }
+                    index = order[i];
+                    output[index] = textCharacters[index];
+                }
+                window.CP.exitedLoop(5);
+                return $element.html(output.join(''));
+            },
+            complete: function () {
+                return $element.html(text);
+            }
+        };
+        return $(object).delay(settings.delay).animate(target, parameters);
+    };
+    animate = function () {
+        var data, element, index, j, len, options;
+        for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) {
+            if (window.CP.shouldStopExecution(6)) {
+                break;
+            }
+            data = MESSAGES[index];
+            element = $paragraph.get(index);
+            element.innerText = '';
+            options = { delay: data.delay };
+            scramble(element, data.text, options);
+        }
+        window.CP.exitedLoop(6);
+    };
+    initialise = function () {
+        var index, j, len, text;
+        $animate.click(animate);
+        for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) {
+            if (window.CP.shouldStopExecution(7)) {
+                break;
+            }
+            text = MESSAGES[index];
+            $message.append('<a href="../media/bioconfused.txt"><p>');
+        }
+        window.CP.exitedLoop(7);
+        $paragraph = $container.find('p');
+        animate();
+    };
+    initialise();
+}.call(this));
+      //@ sourceURL=pen.js
+    </script>
+    
+    <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+  </body>
+
+<!-- Mirrored from www.kaossedgeofficial.com/ke_ripflow/zone.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 13 Jun 2019 17:42:42 GMT -->
+</html>
+ 
+
